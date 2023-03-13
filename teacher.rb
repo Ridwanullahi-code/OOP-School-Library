@@ -14,4 +14,3 @@ class Teacher < Person
     (of_age || !of_age) || (@parent_permission || !@parent_permission)
   end
 end
-
