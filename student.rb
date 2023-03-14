@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative('./person')
 # student class store student information and properties
 class Student < Person
@@ -11,6 +9,6 @@ class Student < Person
   end
 
   def play_hook
-    "¯\(ツ)/¯"
+    '¯(ツ)/¯'
   end
 end

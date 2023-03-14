@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative('./person')
 # class to store teacher information and methods
 class Teacher < Person
