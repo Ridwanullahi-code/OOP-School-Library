@@ -24,7 +24,7 @@
 
 # 📖 OOP School Library <a name="about-project"></a>
 
-**OOP School Library** Aims to create a simple library management system for a school using Ruby programming language. The system should allow librarians to add books to the library, track books that are checked out by students, and manage student accounts.
+**OOP School Library** Is a Ruby OOP application that helps manage a library's collection of books, rentals, students, teachers, and borrowing transactions. The project aims to provide an efficient and user-friendly interface for librarians to add, and search for books, as well as manage borrower accounts and track borrowing transactions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,10 +43,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Decodes morse code into human readable format**
+- **Book class:** This class represents each book in the library, with attributes such as title, author.
+- **Rentals class:** This class represents library rentals, with attributes such as type of person, name, contact information, and borrowing history
+
+- **App class:** This class serves as the main interface for librarians, providing methods to add, shows all books, and search for books with specified id , as well as manage borrower accounts and track borrowing transactions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+**The project utilize various OOP principles, such as encapsulation, inheritance,polymorphism, Abstraction, associations, and decomposition to ensure a well-organized and easy-to-maintain codebase.**
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
