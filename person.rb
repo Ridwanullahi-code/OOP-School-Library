@@ -1,10 +1,11 @@
-require_relative('./nameable.rb')
+require_relative('./nameable')
 # person class store person information and properties
 class Person < Nameable
   attr_accessor :name, :age
   attr_reader :id
 
   def initialize(age, name = 'Unknown', parent_permission: true)
+    super()
     @id = generate_id
     @age = age
     @name = name
@@ -27,10 +28,11 @@ class Person < Nameable
       false
     end
   end
-  
+
   def correct_name
     @name
   end
+
   private
 
   def of_age
