@@ -1,5 +1,6 @@
 require_relative('./book')
 require_relative('./person')
+require_relative('./student')
 
 class Rental
   attr_accessor :date, :book, :person
