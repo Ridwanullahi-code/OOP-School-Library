@@ -14,3 +14,6 @@ class Classroom
     student.classroom = self
   end
 end
+
+s = Student.new('Micheal', '30', 'LT2')
+puts s
