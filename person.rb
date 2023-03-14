@@ -1,5 +1,6 @@
+require_relative('./nameable.rb')
 # person class store person information and properties
-class Person
+class Person < Nameable
   attr_accessor :name, :age
   attr_reader :id
 
@@ -26,7 +27,10 @@ class Person
       false
     end
   end
-
+  
+  def correct_name
+    @name
+  end
   private
 
   def of_age
